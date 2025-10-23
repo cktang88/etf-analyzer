@@ -300,6 +300,11 @@ def main():
     fig.write_html(args.output)
     print(f"Chart saved to {args.output}")
 
+    # Also save as PNG for README
+    png_output = args.output.replace('.html', '.png')
+    fig.write_image(png_output, width=1200, height=600)
+    print(f"Chart image saved to {png_output}")
+
     # Open in browser
     import webbrowser
     webbrowser.open(f"file://{os.path.abspath(args.output)}")

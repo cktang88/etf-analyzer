@@ -2,6 +2,22 @@
 
 Analyzes portfolio returns and composition by fetching historical price data and breaking down ETF holdings into individual stock positions.
 
+## Example Output
+
+![Portfolio Returns Chart](portfolio_analysis.png)
+
+```
+TOP HOLDINGS BY COMPOSITION
+============================================================
+Ticker         Composition
+------------------------------------------------------------
+AAPL                  5.23%
+MSFT                  4.87%
+LMT                  17.00%
+...
+```
+
+
 ## Features
 
 - Load portfolio allocations from CSV
@@ -93,16 +109,3 @@ ETF holdings data is cached in the `cache/` directory to avoid repeated API call
 
 - **Console**: Top 20 holdings by composition percentage
 - **HTML Chart**: Interactive time series of returns for each position
-
-## Example Output
-
-```
-TOP HOLDINGS BY COMPOSITION
-============================================================
-Ticker         Composition
-------------------------------------------------------------
-AAPL                  5.23%
-MSFT                  4.87%
-LMT                  17.00%
-...
-```

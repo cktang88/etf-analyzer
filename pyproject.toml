@@ -4,4 +4,9 @@ version = "0.1.0"
 description = "ETF/Stock Portfolio Analyzer"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = ["pandas>=2.3.3", "plotly>=6.3.1", "yfinance>=0.2.66"]
+dependencies = [
+    "kaleido>=1.1.0",
+    "pandas>=2.3.3",
+    "plotly>=6.3.1",
+    "yfinance>=0.2.66",
+]
