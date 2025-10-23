@@ -11,11 +11,12 @@ TOP HOLDINGS BY COMPOSITION
 ============================================================
 Ticker         Composition
 ------------------------------------------------------------
-AAPL                  5.23%
-MSFT                  4.87%
-LMT                  17.00%
+LMT                  18.22%
+GE                    2.33%
+RTX                   2.13%
 ...
 ```
+(Holdings are sorted by composition % in descending order)
 
 
 ## Features
